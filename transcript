@@ -1,0 +1,1552 @@
+# //  ModelSim SE-64 10.3c Jul 18 2014 Linux 2.6.18-419.el5.centos.plus
+# //
+# //  Copyright 1991-2014 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //
+ls
+# compile.tcl
+# fifo_tb.vhd
+# fifo.vhd
+# run.tcl
+# transcript
+compile.tcl
+# invalid command name "compile.tcl"
+do compile.tcl
+# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
+# Start time: 18:17:03 on Aug 09,2021
+# vcom -reportprogress 300 ./fifo.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity fifo
+# ** Error: ./fifo.vhd(15): near "end": expecting ';'
+# End time: 18:17:03 on Aug 09,2021, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: /soft64/mentor/ferramentas/modelsim/10.3c/modeltech/linux_x86_64/vcom failed.
+# Error in macro ./compile.tcl line 2
+# /soft64/mentor/ferramentas/modelsim/10.3c/modeltech/linux_x86_64/vcom failed.
+#     while executing
+# "vcom ./fifo.vhd"
+do compile.tcl
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
+# Start time: 18:18:13 on Aug 09,2021
+# vcom -reportprogress 300 ./fifo.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity fifo
+# ** Error: ./fifo.vhd(15): near "end": expecting ';'
+# End time: 18:18:13 on Aug 09,2021, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: /soft64/mentor/ferramentas/modelsim/10.3c/modeltech/linux_x86_64/vcom failed.
+# Error in macro ./compile.tcl line 2
+# /soft64/mentor/ferramentas/modelsim/10.3c/modeltech/linux_x86_64/vcom failed.
+#     while executing
+# "vcom ./fifo.vhd"
+do compile.tcl
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
+# Start time: 18:18:28 on Aug 09,2021
+# vcom -reportprogress 300 ./fifo.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity fifo
+# -- Compiling architecture fifo of fifo
+# ** Error: ./fifo.vhd(69): near "=": expecting <= or :=
+# ** Error: ./fifo.vhd(75): near "fifo": expecting PROCESS
+# End time: 18:18:28 on Aug 09,2021, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# ** Error: /soft64/mentor/ferramentas/modelsim/10.3c/modeltech/linux_x86_64/vcom failed.
+# Error in macro ./compile.tcl line 2
+# /soft64/mentor/ferramentas/modelsim/10.3c/modeltech/linux_x86_64/vcom failed.
+#     while executing
+# "vcom ./fifo.vhd"
+do compile.tcl
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
+# Start time: 18:18:58 on Aug 09,2021
+# vcom -reportprogress 300 ./fifo.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity fifo
+# -- Compiling architecture fifo of fifo
+# ** Error: ./fifo.vhd(40): (vcom-1339) Case statement choices cover only 2 out of 729 cases.
+# ** Error: ./fifo.vhd(66): (vcom-1339) Case statement choices cover only 1 out of 729 cases.
+# ** Error: ./fifo.vhd(75): VHDL Compiler exiting
+# End time: 18:18:58 on Aug 09,2021, Elapsed time: 0:00:00
+# Errors: 3, Warnings: 0
+# ** Error: /soft64/mentor/ferramentas/modelsim/10.3c/modeltech/linux_x86_64/vcom failed.
+# Error in macro ./compile.tcl line 2
+# /soft64/mentor/ferramentas/modelsim/10.3c/modeltech/linux_x86_64/vcom failed.
+#     while executing
+# "vcom ./fifo.vhd"
+do compile.tcl
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
+# Start time: 18:20:08 on Aug 09,2021
+# vcom -reportprogress 300 ./fifo.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity fifo
+# -- Compiling architecture fifo of fifo
+# End time: 18:20:08 on Aug 09,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
+# Start time: 18:20:08 on Aug 09,2021
+# vcom -reportprogress 300 ./fifo_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity fifo_tb
+# -- Compiling architecture fifo_tb of fifo_tb
+# -- Loading entity fifo
+# ** Error: ./fifo_tb.vhd(22): near ")": syntax error
+# ** Error: ./fifo_tb.vhd(25): VHDL Compiler exiting
+# End time: 18:20:08 on Aug 09,2021, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# ** Error: /soft64/mentor/ferramentas/modelsim/10.3c/modeltech/linux_x86_64/vcom failed.
+# Error in macro ./compile.tcl line 3
+# /soft64/mentor/ferramentas/modelsim/10.3c/modeltech/linux_x86_64/vcom failed.
+#     while executing
+# "vcom ./fifo_tb.vhd"
+do compile.tcl
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
+# Start time: 18:31:50 on Aug 09,2021
+# vcom -reportprogress 300 ./fifo.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity fifo
+# -- Compiling architecture fifo of fifo
+# End time: 18:31:50 on Aug 09,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
+# Start time: 18:31:50 on Aug 09,2021
+# vcom -reportprogress 300 ./fifo_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity fifo_tb
+# -- Compiling architecture fifo_tb of fifo_tb
+# ** Error: ./fifo_tb.vhd(27): near "begin": syntax error
+# End time: 18:31:50 on Aug 09,2021, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: /soft64/mentor/ferramentas/modelsim/10.3c/modeltech/linux_x86_64/vcom failed.
+# Error in macro ./compile.tcl line 3
+# /soft64/mentor/ferramentas/modelsim/10.3c/modeltech/linux_x86_64/vcom failed.
+#     while executing
+# "vcom ./fifo_tb.vhd"
+do compile.tcl
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
+# Start time: 18:32:21 on Aug 09,2021
+# vcom -reportprogress 300 ./fifo.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity fifo
+# -- Compiling architecture fifo of fifo
+# End time: 18:32:21 on Aug 09,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
+# Start time: 18:32:21 on Aug 09,2021
+# vcom -reportprogress 300 ./fifo_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity fifo_tb
+# -- Compiling architecture fifo_tb of fifo_tb
+# -- Loading entity fifo
+# ** Error: ./fifo_tb.vhd(34): near "sts_error": expecting ',' or ')'
+# ** Error: ./fifo_tb.vhd(39): Statement cannot be labeled.
+# ** Error: ./fifo_tb.vhd(53): VHDL Compiler exiting
+# End time: 18:32:21 on Aug 09,2021, Elapsed time: 0:00:00
+# Errors: 3, Warnings: 0
+# ** Error: /soft64/mentor/ferramentas/modelsim/10.3c/modeltech/linux_x86_64/vcom failed.
+# Error in macro ./compile.tcl line 3
+# /soft64/mentor/ferramentas/modelsim/10.3c/modeltech/linux_x86_64/vcom failed.
+#     while executing
+# "vcom ./fifo_tb.vhd"
+do compile.tcl
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
+# Start time: 18:32:38 on Aug 09,2021
+# vcom -reportprogress 300 ./fifo.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity fifo
+# -- Compiling architecture fifo of fifo
+# End time: 18:32:38 on Aug 09,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
+# Start time: 18:32:38 on Aug 09,2021
+# vcom -reportprogress 300 ./fifo_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity fifo_tb
+# -- Compiling architecture fifo_tb of fifo_tb
+# -- Loading entity fifo
+# ** Error: ./fifo_tb.vhd(35): near "wr_data": expecting ',' or ')'
+# ** Error: ./fifo_tb.vhd(39): Statement cannot be labeled.
+# ** Error: ./fifo_tb.vhd(53): VHDL Compiler exiting
+# End time: 18:32:38 on Aug 09,2021, Elapsed time: 0:00:00
+# Errors: 3, Warnings: 0
+# ** Error: /soft64/mentor/ferramentas/modelsim/10.3c/modeltech/linux_x86_64/vcom failed.
+# Error in macro ./compile.tcl line 3
+# /soft64/mentor/ferramentas/modelsim/10.3c/modeltech/linux_x86_64/vcom failed.
+#     while executing
+# "vcom ./fifo_tb.vhd"
+do compile.tcl
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
+# Start time: 18:33:06 on Aug 09,2021
+# vcom -reportprogress 300 ./fifo.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity fifo
+# -- Compiling architecture fifo of fifo
+# End time: 18:33:06 on Aug 09,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
+# Start time: 18:33:06 on Aug 09,2021
+# vcom -reportprogress 300 ./fifo_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity fifo_tb
+# -- Compiling architecture fifo_tb of fifo_tb
+# -- Loading entity fifo
+# End time: 18:33:06 on Aug 09,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+do run.tcl
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
+# Start time: 18:33:49 on Aug 09,2021
+# vcom -reportprogress 300 ./fifo.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity fifo
+# -- Compiling architecture fifo of fifo
+# End time: 18:33:49 on Aug 09,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
+# Start time: 18:33:49 on Aug 09,2021
+# vcom -reportprogress 300 ./fifo_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity fifo_tb
+# -- Compiling architecture fifo_tb of fifo_tb
+# -- Loading entity fifo
+# End time: 18:33:49 on Aug 09,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim 
+# Start time: 18:33:49 on Aug 09,2021
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Loading std.standard
+# Refreshing /home/vlsi2_g07/vlsi2_t1/work.fifo_tb(fifo_tb)
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.fifo_tb(fifo_tb)
+# Refreshing /home/vlsi2_g07/vlsi2_t1/work.fifo(fifo)
+# Loading work.fifo(fifo)
+# ** Warning: (vsim-8683) Uninitialized out port /fifo_tb/DUV/rd_data(7 downto 0) has no driver.
+# This port will contribute value (8'hXX) to the signal network.
+# ** Error: Cannot open macro file: wave.do
+# Error in macro ./run.tcl line 6
+# invalid command name "vsim_increment_error_count"
+#     while executing
+# "::tcl_unknown vsim_increment_error_count"
+#     ("uplevel" body line 1)
+#     invoked from within
+# "uplevel 1 ::tcl_unknown $args"
+do run.tcl
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
+# Start time: 18:34:44 on Aug 09,2021
+# vcom -reportprogress 300 ./fifo.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity fifo
+# -- Compiling architecture fifo of fifo
+# End time: 18:34:44 on Aug 09,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
+# Start time: 18:34:44 on Aug 09,2021
+# vcom -reportprogress 300 ./fifo_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity fifo_tb
+# -- Compiling architecture fifo_tb of fifo_tb
+# -- Loading entity fifo
+# End time: 18:34:44 on Aug 09,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim 
+# Start time: 18:34:44 on Aug 09,2021
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Loading std.standard
+# Refreshing /home/vlsi2_g07/vlsi2_t1/work.fifo_tb(fifo_tb)
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.fifo_tb(fifo_tb)
+# Refreshing /home/vlsi2_g07/vlsi2_t1/work.fifo(fifo)
+# Loading work.fifo(fifo)
+# ** Warning: (vsim-8683) Uninitialized out port /fifo_tb/DUV/rd_data(7 downto 0) has no driver.
+# This port will contribute value (8'hXX) to the signal network.
+do run.tcl
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
+# Start time: 18:36:29 on Aug 09,2021
+# vcom -reportprogress 300 ./fifo.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity fifo
+# -- Compiling architecture fifo of fifo
+# End time: 18:36:29 on Aug 09,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
+# Start time: 18:36:29 on Aug 09,2021
+# vcom -reportprogress 300 ./fifo_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity fifo_tb
+# -- Compiling architecture fifo_tb of fifo_tb
+# -- Loading entity fifo
+# End time: 18:36:29 on Aug 09,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim 
+# Start time: 18:36:29 on Aug 09,2021
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Loading std.standard
+# Refreshing /home/vlsi2_g07/vlsi2_t1/work.fifo_tb(fifo_tb)
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.fifo_tb(fifo_tb)
+# Refreshing /home/vlsi2_g07/vlsi2_t1/work.fifo(fifo)
+# Loading work.fifo(fifo)
+# ** Warning: (vsim-8683) Uninitialized out port /fifo_tb/DUV/rd_data(7 downto 0) has no driver.
+# This port will contribute value (8'hXX) to the signal network.
+# ** Error: Cannot open WLF file: "/sim/t1"
+#           Permission denied.
+#           Attempting to use alternate WLF file "/sim/wlft2138Rd".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: /sim/t1
+#           Using alternate file: /sim/wlft2138Rd
+add wave -position end  sim:/fifo_tb/DUV/mem
+add wave -position 11  sim:/fifo_tb/DUV/current_state
+add wave -position 12  sim:/fifo_tb/DUV/next_state
+add wave -position 11  sim:/fifo_tb/DUV/rd_pointer
+add wave -position 12  sim:/fifo_tb/DUV/wr_pointer
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf /home/vlsi2_g07/vlsi2_t1/wave.do
+restart
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# ** Warning: (vsim-8683) Uninitialized out port /fifo_tb/DUV/rd_data(7 downto 0) has no driver.
+# This port will contribute value (8'hXX) to the signal network.
+run 300ns
+do run.tcl
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
+# Start time: 18:40:41 on Aug 09,2021
+# vcom -reportprogress 300 ./fifo.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity fifo
+# -- Compiling architecture fifo of fifo
+# End time: 18:40:41 on Aug 09,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
+# Start time: 18:40:42 on Aug 09,2021
+# vcom -reportprogress 300 ./fifo_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity fifo_tb
+# -- Compiling architecture fifo_tb of fifo_tb
+# -- Loading entity fifo
+# End time: 18:40:42 on Aug 09,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim 
+# Start time: 18:40:42 on Aug 09,2021
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Loading std.standard
+# Refreshing /home/vlsi2_g07/vlsi2_t1/work.fifo_tb(fifo_tb)
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.fifo_tb(fifo_tb)
+# Refreshing /home/vlsi2_g07/vlsi2_t1/work.fifo(fifo)
+# Loading work.fifo(fifo)
+# ** Warning: (vsim-8683) Uninitialized out port /fifo_tb/DUV/rd_data(7 downto 0) has no driver.
+# This port will contribute value (8'hXX) to the signal network.
+# ** Error: Cannot open WLF file: "/sim/t1"
+#           Permission denied.
+#           Attempting to use alternate WLF file "/sim/wlftdiLAZb".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: /sim/t1
+#           Using alternate file: /sim/wlftdiLAZb
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf /home/vlsi2_g07/vlsi2_t1/wave.do
+do run.tcl
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
+# Start time: 18:42:45 on Aug 09,2021
+# vcom -reportprogress 300 ./fifo.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity fifo
+# -- Compiling architecture fifo of fifo
+# End time: 18:42:45 on Aug 09,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
+# Start time: 18:42:45 on Aug 09,2021
+# vcom -reportprogress 300 ./fifo_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity fifo_tb
+# -- Compiling architecture fifo_tb of fifo_tb
+# -- Loading entity fifo
+# End time: 18:42:45 on Aug 09,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim 
+# Start time: 18:42:46 on Aug 09,2021
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Loading std.standard
+# Refreshing /home/vlsi2_g07/vlsi2_t1/work.fifo_tb(fifo_tb)
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.fifo_tb(fifo_tb)
+# Refreshing /home/vlsi2_g07/vlsi2_t1/work.fifo(fifo)
+# Loading work.fifo(fifo)
+# ** Warning: (vsim-8683) Uninitialized out port /fifo_tb/DUV/rd_data(7 downto 0) has no driver.
+# This port will contribute value (8'hXX) to the signal network.
+# ** Error: Cannot open WLF file: "/sim/t1"
+#           Permission denied.
+#           Attempting to use alternate WLF file "/sim/wlft2Jgixs".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: /sim/t1
+#           Using alternate file: /sim/wlft2Jgixs
+do run.tcl
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
+# Start time: 18:43:25 on Aug 09,2021
+# vcom -reportprogress 300 ./fifo.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity fifo
+# -- Compiling architecture fifo of fifo
+# End time: 18:43:25 on Aug 09,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
+# Start time: 18:43:25 on Aug 09,2021
+# vcom -reportprogress 300 ./fifo_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity fifo_tb
+# -- Compiling architecture fifo_tb of fifo_tb
+# -- Loading entity fifo
+# End time: 18:43:25 on Aug 09,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim 
+# Start time: 18:43:25 on Aug 09,2021
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Loading std.standard
+# Refreshing /home/vlsi2_g07/vlsi2_t1/work.fifo_tb(fifo_tb)
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.fifo_tb(fifo_tb)
+# Refreshing /home/vlsi2_g07/vlsi2_t1/work.fifo(fifo)
+# Loading work.fifo(fifo)
+# ** Warning: (vsim-8683) Uninitialized out port /fifo_tb/DUV/rd_data(7 downto 0) has no driver.
+# This port will contribute value (8'hXX) to the signal network.
+# ** Error: Cannot open WLF file: "/sim/t1"
+#           Permission denied.
+#           Attempting to use alternate WLF file "/sim/wlftrzvEQ6".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: /sim/t1
+#           Using alternate file: /sim/wlftrzvEQ6
+# Causality operation skipped due to absence of debug database file
+do run.tcl
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
+# Start time: 18:47:13 on Aug 09,2021
+# vcom -reportprogress 300 ./fifo.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity fifo
+# -- Compiling architecture fifo of fifo
+# End time: 18:47:13 on Aug 09,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
+# Start time: 18:47:13 on Aug 09,2021
+# vcom -reportprogress 300 ./fifo_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity fifo_tb
+# -- Compiling architecture fifo_tb of fifo_tb
+# -- Loading entity fifo
+# End time: 18:47:13 on Aug 09,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim 
+# Start time: 18:47:13 on Aug 09,2021
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Loading std.standard
+# Refreshing /home/vlsi2_g07/vlsi2_t1/work.fifo_tb(fifo_tb)
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.fifo_tb(fifo_tb)
+# Refreshing /home/vlsi2_g07/vlsi2_t1/work.fifo(fifo)
+# Loading work.fifo(fifo)
+# ** Warning: (vsim-8683) Uninitialized out port /fifo_tb/DUV/rd_data(7 downto 0) has no driver.
+# This port will contribute value (8'hXX) to the signal network.
+# ** Error: Cannot open WLF file: "/sim/t1"
+#           Permission denied.
+#           Attempting to use alternate WLF file "/sim/wlft45WVHL".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: /sim/t1
+#           Using alternate file: /sim/wlft45WVHL
+do run.tcl
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
+# Start time: 18:53:53 on Aug 09,2021
+# vcom -reportprogress 300 ./fifo.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity fifo
+# -- Compiling architecture fifo of fifo
+# End time: 18:53:54 on Aug 09,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
+# Start time: 18:53:54 on Aug 09,2021
+# vcom -reportprogress 300 ./fifo_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity fifo_tb
+# -- Compiling architecture fifo_tb of fifo_tb
+# -- Loading entity fifo
+# End time: 18:53:54 on Aug 09,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim 
+# Start time: 18:53:54 on Aug 09,2021
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Loading std.standard
+# Refreshing /home/vlsi2_g07/vlsi2_t1/work.fifo_tb(fifo_tb)
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.fifo_tb(fifo_tb)
+# Refreshing /home/vlsi2_g07/vlsi2_t1/work.fifo(fifo)
+# Loading work.fifo(fifo)
+# ** Warning: (vsim-8683) Uninitialized out port /fifo_tb/DUV/sts_error has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /fifo_tb/DUV/sts_full has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /fifo_tb/DUV/sts_high has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /fifo_tb/DUV/sts_low has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /fifo_tb/DUV/sts_empty has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /fifo_tb/DUV/rd_data(7 downto 0) has no driver.
+# This port will contribute value (8'hXX) to the signal network.
+# ** Error: Cannot open WLF file: "/sim/t1"
+#           Permission denied.
+#           Attempting to use alternate WLF file "/sim/wlftmCgj7J".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: /sim/t1
+#           Using alternate file: /sim/wlftmCgj7J
+do run.tcl
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
+# Start time: 18:54:36 on Aug 09,2021
+# vcom -reportprogress 300 ./fifo.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity fifo
+# -- Compiling architecture fifo of fifo
+# End time: 18:54:36 on Aug 09,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
+# Start time: 18:54:36 on Aug 09,2021
+# vcom -reportprogress 300 ./fifo_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity fifo_tb
+# -- Compiling architecture fifo_tb of fifo_tb
+# -- Loading entity fifo
+# End time: 18:54:37 on Aug 09,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vsim 
+# Start time: 18:54:37 on Aug 09,2021
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Loading std.standard
+# Refreshing /home/vlsi2_g07/vlsi2_t1/work.fifo_tb(fifo_tb)
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.fifo_tb(fifo_tb)
+# Refreshing /home/vlsi2_g07/vlsi2_t1/work.fifo(fifo)
+# Loading work.fifo(fifo)
+# ** Warning: (vsim-8683) Uninitialized out port /fifo_tb/DUV/sts_error has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /fifo_tb/DUV/sts_full has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /fifo_tb/DUV/sts_high has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /fifo_tb/DUV/sts_low has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /fifo_tb/DUV/sts_empty has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /fifo_tb/DUV/rd_data(7 downto 0) has no driver.
+# This port will contribute value (8'hXX) to the signal network.
+# ** Error: Cannot open WLF file: "/sim/t1"
+#           Permission denied.
+#           Attempting to use alternate WLF file "/sim/wlftvXN3K4".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: /sim/t1
+#           Using alternate file: /sim/wlftvXN3K4
+do run.tcl
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
+# Start time: 18:55:01 on Aug 09,2021
+# vcom -reportprogress 300 ./fifo.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity fifo
+# -- Compiling architecture fifo of fifo
+# End time: 18:55:01 on Aug 09,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
+# Start time: 18:55:01 on Aug 09,2021
+# vcom -reportprogress 300 ./fifo_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity fifo_tb
+# -- Compiling architecture fifo_tb of fifo_tb
+# -- Loading entity fifo
+# End time: 18:55:01 on Aug 09,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim 
+# Start time: 18:55:01 on Aug 09,2021
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Loading std.standard
+# Refreshing /home/vlsi2_g07/vlsi2_t1/work.fifo_tb(fifo_tb)
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.fifo_tb(fifo_tb)
+# Refreshing /home/vlsi2_g07/vlsi2_t1/work.fifo(fifo)
+# Loading work.fifo(fifo)
+# ** Warning: (vsim-8683) Uninitialized out port /fifo_tb/DUV/sts_error has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /fifo_tb/DUV/sts_full has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /fifo_tb/DUV/sts_high has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /fifo_tb/DUV/sts_low has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /fifo_tb/DUV/sts_empty has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /fifo_tb/DUV/rd_data(7 downto 0) has no driver.
+# This port will contribute value (8'hXX) to the signal network.
+# ** Error: Cannot open WLF file: "/sim/t1"
+#           Permission denied.
+#           Attempting to use alternate WLF file "/sim/wlftmnLPWA".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: /sim/t1
+#           Using alternate file: /sim/wlftmnLPWA
+do run.tcl
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
+# Start time: 18:55:24 on Aug 09,2021
+# vcom -reportprogress 300 ./fifo.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity fifo
+# -- Compiling architecture fifo of fifo
+# End time: 18:55:24 on Aug 09,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
+# Start time: 18:55:24 on Aug 09,2021
+# vcom -reportprogress 300 ./fifo_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity fifo_tb
+# -- Compiling architecture fifo_tb of fifo_tb
+# -- Loading entity fifo
+# End time: 18:55:25 on Aug 09,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vsim 
+# Start time: 18:55:25 on Aug 09,2021
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Loading std.standard
+# Refreshing /home/vlsi2_g07/vlsi2_t1/work.fifo_tb(fifo_tb)
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.fifo_tb(fifo_tb)
+# Refreshing /home/vlsi2_g07/vlsi2_t1/work.fifo(fifo)
+# Loading work.fifo(fifo)
+# ** Warning: (vsim-8683) Uninitialized out port /fifo_tb/DUV/sts_error has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /fifo_tb/DUV/sts_full has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /fifo_tb/DUV/sts_high has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /fifo_tb/DUV/sts_low has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /fifo_tb/DUV/sts_empty has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /fifo_tb/DUV/rd_data(7 downto 0) has no driver.
+# This port will contribute value (8'hXX) to the signal network.
+# ** Error: Cannot open WLF file: "/sim/t1"
+#           Permission denied.
+#           Attempting to use alternate WLF file "/sim/wlftgob7DU".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: /sim/t1
+#           Using alternate file: /sim/wlftgob7DU
+do run.tcl
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
+# Start time: 18:56:23 on Aug 09,2021
+# vcom -reportprogress 300 ./fifo.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity fifo
+# -- Compiling architecture fifo of fifo
+# End time: 18:56:24 on Aug 09,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
+# Start time: 18:56:24 on Aug 09,2021
+# vcom -reportprogress 300 ./fifo_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity fifo_tb
+# -- Compiling architecture fifo_tb of fifo_tb
+# -- Loading entity fifo
+# End time: 18:56:24 on Aug 09,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim 
+# Start time: 18:56:24 on Aug 09,2021
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Loading std.standard
+# Refreshing /home/vlsi2_g07/vlsi2_t1/work.fifo_tb(fifo_tb)
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.fifo_tb(fifo_tb)
+# Refreshing /home/vlsi2_g07/vlsi2_t1/work.fifo(fifo)
+# Loading work.fifo(fifo)
+# ** Warning: (vsim-8683) Uninitialized out port /fifo_tb/DUV/sts_error has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /fifo_tb/DUV/sts_full has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /fifo_tb/DUV/sts_high has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /fifo_tb/DUV/sts_low has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /fifo_tb/DUV/sts_empty has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /fifo_tb/DUV/rd_data(7 downto 0) has no driver.
+# This port will contribute value (8'hXX) to the signal network.
+# ** Error: Cannot open WLF file: "/sim/t1"
+#           Permission denied.
+#           Attempting to use alternate WLF file "/sim/wlftpNSZtl".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: /sim/t1
+#           Using alternate file: /sim/wlftpNSZtl
+do run.tcl
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
+# Start time: 18:56:31 on Aug 09,2021
+# vcom -reportprogress 300 ./fifo.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity fifo
+# -- Compiling architecture fifo of fifo
+# End time: 18:56:31 on Aug 09,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
+# Start time: 18:56:31 on Aug 09,2021
+# vcom -reportprogress 300 ./fifo_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity fifo_tb
+# -- Compiling architecture fifo_tb of fifo_tb
+# -- Loading entity fifo
+# End time: 18:56:31 on Aug 09,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim 
+# Start time: 18:56:32 on Aug 09,2021
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Loading std.standard
+# Refreshing /home/vlsi2_g07/vlsi2_t1/work.fifo_tb(fifo_tb)
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.fifo_tb(fifo_tb)
+# Refreshing /home/vlsi2_g07/vlsi2_t1/work.fifo(fifo)
+# Loading work.fifo(fifo)
+# ** Warning: (vsim-8683) Uninitialized out port /fifo_tb/DUV/sts_error has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /fifo_tb/DUV/sts_full has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /fifo_tb/DUV/sts_high has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /fifo_tb/DUV/sts_low has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /fifo_tb/DUV/sts_empty has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /fifo_tb/DUV/rd_data(7 downto 0) has no driver.
+# This port will contribute value (8'hXX) to the signal network.
+# ** Error: Cannot open WLF file: "/sim/t1"
+#           Permission denied.
+#           Attempting to use alternate WLF file "/sim/wlftkh3lYE".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: /sim/t1
+#           Using alternate file: /sim/wlftkh3lYE
+do run.tcl
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
+# Start time: 18:57:18 on Aug 09,2021
+# vcom -reportprogress 300 ./fifo.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity fifo
+# -- Compiling architecture fifo of fifo
+# End time: 18:57:18 on Aug 09,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
+# Start time: 18:57:18 on Aug 09,2021
+# vcom -reportprogress 300 ./fifo_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity fifo_tb
+# -- Compiling architecture fifo_tb of fifo_tb
+# -- Loading entity fifo
+# End time: 18:57:18 on Aug 09,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim 
+# Start time: 18:57:19 on Aug 09,2021
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Loading std.standard
+# Refreshing /home/vlsi2_g07/vlsi2_t1/work.fifo_tb(fifo_tb)
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.fifo_tb(fifo_tb)
+# Refreshing /home/vlsi2_g07/vlsi2_t1/work.fifo(fifo)
+# Loading work.fifo(fifo)
+# ** Warning: (vsim-8683) Uninitialized out port /fifo_tb/DUV/sts_error has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /fifo_tb/DUV/sts_full has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /fifo_tb/DUV/sts_high has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /fifo_tb/DUV/sts_low has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /fifo_tb/DUV/sts_empty has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /fifo_tb/DUV/rd_data(7 downto 0) has no driver.
+# This port will contribute value (8'hXX) to the signal network.
+# ** Error: Cannot open WLF file: "/sim/t1"
+#           Permission denied.
+#           Attempting to use alternate WLF file "/sim/wlftdcHWv7".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: /sim/t1
+#           Using alternate file: /sim/wlftdcHWv7
+do run.tcl
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
+# Start time: 19:03:12 on Aug 09,2021
+# vcom -reportprogress 300 ./fifo.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity fifo
+# -- Compiling architecture fifo of fifo
+# ** Error: ./fifo.vhd(100): near "if": syntax error
+# End time: 19:03:12 on Aug 09,2021, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: /soft64/mentor/ferramentas/modelsim/10.3c/modeltech/linux_x86_64/vcom failed.
+# Error in macro ./run.tcl line 2
+# invalid command name "vsim_increment_error_count"
+#     while executing
+# "::tcl_unknown vsim_increment_error_count"
+#     ("uplevel" body line 1)
+#     invoked from within
+# "uplevel 1 ::tcl_unknown $args"
+do run.tcl
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
+# Start time: 19:03:45 on Aug 09,2021
+# vcom -reportprogress 300 ./fifo.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity fifo
+# -- Compiling architecture fifo of fifo
+# ** Error: ./fifo.vhd(102): Enumeration literal '0' is not of type std.STANDARD.INTEGER.
+# ** Error: ./fifo.vhd(118): VHDL Compiler exiting
+# End time: 19:03:45 on Aug 09,2021, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# ** Error: /soft64/mentor/ferramentas/modelsim/10.3c/modeltech/linux_x86_64/vcom failed.
+# Error in macro ./run.tcl line 2
+# invalid command name "vsim_increment_error_count"
+#     while executing
+# "::tcl_unknown vsim_increment_error_count"
+#     ("uplevel" body line 1)
+#     invoked from within
+# "uplevel 1 ::tcl_unknown $args"
+do run.tcl
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
+# Start time: 19:03:57 on Aug 09,2021
+# vcom -reportprogress 300 ./fifo.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity fifo
+# -- Compiling architecture fifo of fifo
+# End time: 19:03:57 on Aug 09,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
+# Start time: 19:03:57 on Aug 09,2021
+# vcom -reportprogress 300 ./fifo_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity fifo_tb
+# -- Compiling architecture fifo_tb of fifo_tb
+# -- Loading entity fifo
+# End time: 19:03:57 on Aug 09,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim 
+# Start time: 19:03:57 on Aug 09,2021
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Loading std.standard
+# Refreshing /home/vlsi2_g07/vlsi2_t1/work.fifo_tb(fifo_tb)
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.fifo_tb(fifo_tb)
+# Refreshing /home/vlsi2_g07/vlsi2_t1/work.fifo(fifo)
+# Loading work.fifo(fifo)
+# ** Warning: (vsim-8683) Uninitialized out port /fifo_tb/DUV/sts_error has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /fifo_tb/DUV/sts_full has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /fifo_tb/DUV/sts_high has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /fifo_tb/DUV/sts_low has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /fifo_tb/DUV/sts_empty has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Error: Cannot open WLF file: "/sim/t1"
+#           Permission denied.
+#           Attempting to use alternate WLF file "/sim/wlftRVmyu6".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: /sim/t1
+#           Using alternate file: /sim/wlftRVmyu6
+# ** Error: (vish-4014) No objects found matching '/fifo_tb/DUV/current_state'.
+# Executing ONERROR command at macro ./wave.do line 16
+# ** Error: (vish-4014) No objects found matching '/fifo_tb/DUV/next_state'.
+# Executing ONERROR command at macro ./wave.do line 17
+do run.tcl
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
+# Start time: 19:06:14 on Aug 09,2021
+# vcom -reportprogress 300 ./fifo.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity fifo
+# -- Compiling architecture fifo of fifo
+# End time: 19:06:14 on Aug 09,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
+# Start time: 19:06:14 on Aug 09,2021
+# vcom -reportprogress 300 ./fifo_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity fifo_tb
+# -- Compiling architecture fifo_tb of fifo_tb
+# -- Loading entity fifo
+# End time: 19:06:14 on Aug 09,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim 
+# Start time: 19:06:14 on Aug 09,2021
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Loading std.standard
+# Refreshing /home/vlsi2_g07/vlsi2_t1/work.fifo_tb(fifo_tb)
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.fifo_tb(fifo_tb)
+# Refreshing /home/vlsi2_g07/vlsi2_t1/work.fifo(fifo)
+# Loading work.fifo(fifo)
+# ** Warning: (vsim-8683) Uninitialized out port /fifo_tb/DUV/sts_error has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /fifo_tb/DUV/sts_full has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /fifo_tb/DUV/sts_high has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /fifo_tb/DUV/sts_low has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /fifo_tb/DUV/sts_empty has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Error: Cannot open WLF file: "/sim/t1"
+#           Permission denied.
+#           Attempting to use alternate WLF file "/sim/wlftZDIEK2".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: /sim/t1
+#           Using alternate file: /sim/wlftZDIEK2
+# ** Error: (vish-4014) No objects found matching '/fifo_tb/DUV/current_state'.
+# Executing ONERROR command at macro ./wave.do line 16
+# ** Error: (vish-4014) No objects found matching '/fifo_tb/DUV/next_state'.
+# Executing ONERROR command at macro ./wave.do line 17
+# A time value could not be extracted from the current line
+do run.tcl
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
+# Start time: 19:06:54 on Aug 09,2021
+# vcom -reportprogress 300 ./fifo.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity fifo
+# -- Compiling architecture fifo of fifo
+# End time: 19:06:54 on Aug 09,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
+# Start time: 19:06:54 on Aug 09,2021
+# vcom -reportprogress 300 ./fifo_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity fifo_tb
+# -- Compiling architecture fifo_tb of fifo_tb
+# -- Loading entity fifo
+# End time: 19:06:55 on Aug 09,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vsim 
+# Start time: 19:06:55 on Aug 09,2021
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Loading std.standard
+# Refreshing /home/vlsi2_g07/vlsi2_t1/work.fifo_tb(fifo_tb)
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.fifo_tb(fifo_tb)
+# Refreshing /home/vlsi2_g07/vlsi2_t1/work.fifo(fifo)
+# Loading work.fifo(fifo)
+# ** Warning: (vsim-8683) Uninitialized out port /fifo_tb/DUV/sts_error has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /fifo_tb/DUV/sts_full has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /fifo_tb/DUV/sts_high has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /fifo_tb/DUV/sts_low has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /fifo_tb/DUV/sts_empty has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Error: Cannot open WLF file: "/sim/t1"
+#           Permission denied.
+#           Attempting to use alternate WLF file "/sim/wlftZiP3UL".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: /sim/t1
+#           Using alternate file: /sim/wlftZiP3UL
+# ** Error: (vish-4014) No objects found matching '/fifo_tb/DUV/current_state'.
+# Executing ONERROR command at macro ./wave.do line 16
+# ** Error: (vish-4014) No objects found matching '/fifo_tb/DUV/next_state'.
+# Executing ONERROR command at macro ./wave.do line 17
+do run.tcl
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
+# Start time: 19:24:07 on Aug 09,2021
+# vcom -reportprogress 300 ./fifo.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity fifo
+# -- Compiling architecture fifo of fifo
+# ** Error: ./fifo.vhd(139): Cannot read output "sts_empty".
+# 	VHDL 2008 allows reading outputs.
+# 	This facility is enabled by compiling with -2008.
+# ** Error: ./fifo.vhd(144): Cannot read output "sts_full".
+# 	VHDL 2008 allows reading outputs.
+# 	This facility is enabled by compiling with -2008.
+# ** Error: ./fifo.vhd(169): near "fifo": expecting IF
+# End time: 19:24:07 on Aug 09,2021, Elapsed time: 0:00:00
+# Errors: 3, Warnings: 0
+# ** Error: /soft64/mentor/ferramentas/modelsim/10.3c/modeltech/linux_x86_64/vcom failed.
+# Error in macro ./run.tcl line 2
+# invalid command name "vsim_increment_error_count"
+#     while executing
+# "::tcl_unknown vsim_increment_error_count"
+#     ("uplevel" body line 1)
+#     invoked from within
+# "uplevel 1 ::tcl_unknown $args"
+do run.tcl
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
+# Start time: 19:25:38 on Aug 09,2021
+# vcom -reportprogress 300 ./fifo.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity fifo
+# -- Compiling architecture fifo of fifo
+# ** Error: ./fifo.vhd(173): near "fifo": expecting IF
+# End time: 19:25:38 on Aug 09,2021, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: /soft64/mentor/ferramentas/modelsim/10.3c/modeltech/linux_x86_64/vcom failed.
+# Error in macro ./run.tcl line 2
+# invalid command name "vsim_increment_error_count"
+#     while executing
+# "::tcl_unknown vsim_increment_error_count"
+#     ("uplevel" body line 1)
+#     invoked from within
+# "uplevel 1 ::tcl_unknown $args"
+do run.tcl
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
+# Start time: 19:26:11 on Aug 09,2021
+# vcom -reportprogress 300 ./fifo.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity fifo
+# -- Compiling architecture fifo of fifo
+# ** Error: ./fifo.vhd(174): near "fifo": expecting PROCESS
+# End time: 19:26:11 on Aug 09,2021, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: /soft64/mentor/ferramentas/modelsim/10.3c/modeltech/linux_x86_64/vcom failed.
+# Error in macro ./run.tcl line 2
+# invalid command name "vsim_increment_error_count"
+#     while executing
+# "::tcl_unknown vsim_increment_error_count"
+#     ("uplevel" body line 1)
+#     invoked from within
+# "uplevel 1 ::tcl_unknown $args"
+do run.tcl
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
+# Start time: 19:26:28 on Aug 09,2021
+# vcom -reportprogress 300 ./fifo.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity fifo
+# -- Compiling architecture fifo of fifo
+# End time: 19:26:28 on Aug 09,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
+# Start time: 19:26:28 on Aug 09,2021
+# vcom -reportprogress 300 ./fifo_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity fifo_tb
+# -- Compiling architecture fifo_tb of fifo_tb
+# -- Loading entity fifo
+# End time: 19:26:28 on Aug 09,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim 
+# Start time: 19:26:28 on Aug 09,2021
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Loading std.standard
+# Refreshing /home/vlsi2_g07/vlsi2_t1/work.fifo_tb(fifo_tb)
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.fifo_tb(fifo_tb)
+# Refreshing /home/vlsi2_g07/vlsi2_t1/work.fifo(fifo)
+# Loading work.fifo(fifo)
+# ** Error: Cannot open WLF file: "/sim/t1"
+#           Permission denied.
+#           Attempting to use alternate WLF file "/sim/wlftOWeCqM".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: /sim/t1
+#           Using alternate file: /sim/wlftOWeCqM
+# ** Error: (vish-4014) No objects found matching '/fifo_tb/DUV/current_state'.
+# Executing ONERROR command at macro ./wave.do line 16
+# ** Error: (vish-4014) No objects found matching '/fifo_tb/DUV/next_state'.
+# Executing ONERROR command at macro ./wave.do line 17
+add wave -position 13  sim:/fifo_tb/DUV/lastOp
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf /home/vlsi2_g07/vlsi2_t1/wave.do
+do run.tcl
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
+# Start time: 19:28:31 on Aug 09,2021
+# vcom -reportprogress 300 ./fifo.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity fifo
+# -- Compiling architecture fifo of fifo
+# End time: 19:28:31 on Aug 09,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
+# Start time: 19:28:31 on Aug 09,2021
+# vcom -reportprogress 300 ./fifo_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity fifo_tb
+# -- Compiling architecture fifo_tb of fifo_tb
+# -- Loading entity fifo
+# End time: 19:28:31 on Aug 09,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim 
+# Start time: 19:28:31 on Aug 09,2021
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Loading std.standard
+# Refreshing /home/vlsi2_g07/vlsi2_t1/work.fifo_tb(fifo_tb)
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.fifo_tb(fifo_tb)
+# Refreshing /home/vlsi2_g07/vlsi2_t1/work.fifo(fifo)
+# Loading work.fifo(fifo)
+# ** Error: Cannot open WLF file: "/sim/t1"
+#           Permission denied.
+#           Attempting to use alternate WLF file "/sim/wlftBgyCKd".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: /sim/t1
+#           Using alternate file: /sim/wlftBgyCKd
+do run.tcl
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
+# Start time: 19:29:02 on Aug 09,2021
+# vcom -reportprogress 300 ./fifo.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity fifo
+# -- Compiling architecture fifo of fifo
+# End time: 19:29:02 on Aug 09,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
+# Start time: 19:29:02 on Aug 09,2021
+# vcom -reportprogress 300 ./fifo_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity fifo_tb
+# -- Compiling architecture fifo_tb of fifo_tb
+# -- Loading entity fifo
+# End time: 19:29:02 on Aug 09,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim 
+# Start time: 19:29:02 on Aug 09,2021
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Loading std.standard
+# Refreshing /home/vlsi2_g07/vlsi2_t1/work.fifo_tb(fifo_tb)
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.fifo_tb(fifo_tb)
+# Refreshing /home/vlsi2_g07/vlsi2_t1/work.fifo(fifo)
+# Loading work.fifo(fifo)
+# ** Error: Cannot open WLF file: "/sim/t1"
+#           Permission denied.
+#           Attempting to use alternate WLF file "/sim/wlftDRpuAZ".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: /sim/t1
+#           Using alternate file: /sim/wlftDRpuAZ
+do run.tcl
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
+# Start time: 19:31:35 on Aug 09,2021
+# vcom -reportprogress 300 ./fifo.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity fifo
+# -- Compiling architecture fifo of fifo
+# End time: 19:31:35 on Aug 09,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
+# Start time: 19:31:35 on Aug 09,2021
+# vcom -reportprogress 300 ./fifo_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity fifo_tb
+# -- Compiling architecture fifo_tb of fifo_tb
+# -- Loading entity fifo
+# End time: 19:31:35 on Aug 09,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim 
+# Start time: 19:31:36 on Aug 09,2021
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Loading std.standard
+# Refreshing /home/vlsi2_g07/vlsi2_t1/work.fifo_tb(fifo_tb)
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.fifo_tb(fifo_tb)
+# Refreshing /home/vlsi2_g07/vlsi2_t1/work.fifo(fifo)
+# Loading work.fifo(fifo)
+# ** Error: Cannot open WLF file: "/sim/t1"
+#           Permission denied.
+#           Attempting to use alternate WLF file "/sim/wlftzRUoKR".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: /sim/t1
+#           Using alternate file: /sim/wlftzRUoKR
+do run.tcl
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
+# Start time: 19:32:35 on Aug 09,2021
+# vcom -reportprogress 300 ./fifo.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity fifo
+# -- Compiling architecture fifo of fifo
+# End time: 19:32:35 on Aug 09,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
+# Start time: 19:32:35 on Aug 09,2021
+# vcom -reportprogress 300 ./fifo_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity fifo_tb
+# -- Compiling architecture fifo_tb of fifo_tb
+# -- Loading entity fifo
+# End time: 19:32:35 on Aug 09,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim 
+# Start time: 19:32:35 on Aug 09,2021
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Loading std.standard
+# Refreshing /home/vlsi2_g07/vlsi2_t1/work.fifo_tb(fifo_tb)
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.fifo_tb(fifo_tb)
+# Refreshing /home/vlsi2_g07/vlsi2_t1/work.fifo(fifo)
+# Loading work.fifo(fifo)
+# ** Error: Cannot open WLF file: "/sim/t1"
+#           Permission denied.
+#           Attempting to use alternate WLF file "/sim/wlftsRE5da".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: /sim/t1
+#           Using alternate file: /sim/wlftsRE5da
+do run.tcl
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
+# Start time: 19:33:23 on Aug 09,2021
+# vcom -reportprogress 300 ./fifo.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity fifo
+# -- Compiling architecture fifo of fifo
+# End time: 19:33:23 on Aug 09,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
+# Start time: 19:33:23 on Aug 09,2021
+# vcom -reportprogress 300 ./fifo_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity fifo_tb
+# -- Compiling architecture fifo_tb of fifo_tb
+# -- Loading entity fifo
+# End time: 19:33:23 on Aug 09,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim 
+# Start time: 19:33:23 on Aug 09,2021
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Loading std.standard
+# Refreshing /home/vlsi2_g07/vlsi2_t1/work.fifo_tb(fifo_tb)
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.fifo_tb(fifo_tb)
+# Refreshing /home/vlsi2_g07/vlsi2_t1/work.fifo(fifo)
+# Loading work.fifo(fifo)
+# ** Error: Cannot open WLF file: "/sim/t1"
+#           Permission denied.
+#           Attempting to use alternate WLF file "/sim/wlft246jzs".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: /sim/t1
+#           Using alternate file: /sim/wlft246jzs
