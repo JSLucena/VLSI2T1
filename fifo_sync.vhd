@@ -4,7 +4,7 @@ use ieee.std_logic_1164.all;
 use ieee.std_logic_arith.all;
 use ieee.std_logic_unsigned.all;
 
-entity fifo is
+entity fifo_sync is
 port
 (
 	clk, rst, wr_en, rd_en: in std_logic;
@@ -12,74 +12,22 @@ port
 	wr_data : in std_logic_vector(7 downto 0);
 	rd_data : out std_logic_vector(7 downto 0)
 );
-end fifo;
+end fifo_sync;
 
-architecture fifo of fifo is
-type queue is array(0 to 7) of std_logic_vector(7 downto 0);--MUDAR CASO NECESSARIO AUMENTAR A MEMORIA
+architecture fifo_sync of fifo_sync is
+type queue is array(0 to 63) of std_logic_vector(7 downto 0);--MUDAR CASO NECESSARIO AUMENTAR A MEMORIA
 --signals
 signal mem : queue := (others=>x"00");
-signal wr_pointer : integer range 0 to 7 := 0;--MUDAR CASO NECESSARIO AUMENTAR A MEMORIA
-signal rd_pointer : integer range 0 to 7 := 0; --MUDAR CASO NECESSARIO AUMENTAR A MEMORIA
-
+signal wr_pointer : integer range 0 to 63 := 0;--MUDAR CASO NECESSARIO AUMENTAR A MEMORIA
+signal rd_pointer : integer range 0 to 63 := 0; --MUDAR CASO NECESSARIO AUMENTAR A MEMORIA
+signal mem_size : integer := 64; -- MUDAR CASO NECESSARIO AUMENTAR MEMORIA
 signal sts_empty_in, sts_full_in : std_logic;
 
 signal lastOp : std_Logic := '0';
 --signal current_state,next_state : std_logic_vector(2 downto 0) := "000";
 
 begin
-	 
---	 FSM_current_state : process(clk,rst)
---	 begin
---		if rst = '1' then
---			current_state <= "000";
---		elsif rising_edge(clk) then
---			current_state <= next_state;
---		end if;
---		
---	 end process FSM_current_state;
---	 
---	 FSM : process(clk,current_state,next_state)
---	 begin
---		case current_state is
---			when "000" => --##Idle
---				if wr_en = '1' then
---					next_state <= "001";
---				end if;
---				
---			when "001" => --##Write
---					next_state <= "000";
---			
---			when others =>
---					next_state <="000";
---					
---		end case;
---	end process FSM;
---	
---	FSM_LOGIC : process(clk,rst)
---	begin
---		if rst = '1' then
---			sts_error <= '0';
---			sts_full <= '0';
---			sts_high <= '0';
---			sts_low <= '1';
---			sts_empty <= '1';
---			mem <= (others => x"00");
---			wr_pointer <= 0;
---			rd_pointer <= 0;
---			
---		elsif rising_edge(clk) then
---			
---			case current_state is
---				when "001" =>
---					mem(wr_pointer) <= wr_data;
---					wr_pointer <= wr_pointer + 1;
---				
---				when others =>
---			end case;
---			
---		end if;
---					
---	 end process FSM_LOGIC;
+
 
 	write_process : process(clk,rst)
 	begin
@@ -90,10 +38,12 @@ begin
 		elsif rising_edge(clk) then
 			if wr_en = '1' then
 				mem(wr_pointer) <= wr_data;
-				wr_pointer <= wr_pointer + 1;
 				
-				if wr_pointer > 7 then ---MUDAR CASO NECESSARIO AUMENTAR A MEMORIA
+				
+				if wr_pointer >= 63 then ---MUDAR CASO NECESSARIO AUMENTAR A MEMORIA
 					wr_pointer <= 0;
+				else
+					wr_pointer <= wr_pointer + 1;
 				end if;
 			end if;
 		end if;
@@ -107,16 +57,18 @@ begin
 		elsif rising_edge(clk) then
 			if rd_en = '1' then
 				rd_data <= mem(rd_pointer);
-				rd_pointer <= rd_pointer + 1;
-				if rd_pointer > 7 then ---MUDAR CASO NECESSARIO AUMENTAR A MEMORIA
+				
+				if rd_pointer >= 63 then ---MUDAR CASO NECESSARIO AUMENTAR A MEMORIA
 					rd_pointer <= 0;
+				else
+					rd_pointer <= rd_pointer + 1;
 				end if;
 			end if;
 		end if;
 	end process read_process;
 	
 	
-	control_process : process(clk,rst)
+	control_process : process(wr_pointer,rd_pointer,rst)
 	begin
 		if rst = '1' then
 			sts_error <= '0';
@@ -128,7 +80,7 @@ begin
 			sts_full_in <= '0';
 			
 			lastOp <= '0';
-		elsif rising_edge(clk) then
+		else
 		
 			
 		
@@ -171,10 +123,46 @@ begin
 			sts_full <= '0';
 			end if;
 			-----------------------------
+			
+			-----BLOCO HIGH/LOW----------
+			
+			if wr_pointer >= rd_pointer then
+			
+				if (wr_pointer - rd_pointer) >= mem_size - 4 then
+					sts_high <= '1';
+				else
+					sts_high <= '0';
+				end if;
+			else
+				if (wr_pointer + mem_size - rd_pointer) >= mem_size - 4 then
+					sts_high <= '1';
+				else
+					sts_high <= '0';
+				end if;
+			
+			end if;
+			
+			
+			
+			if wr_pointer >= rd_pointer then
+				if (wr_pointer - rd_pointer) <= 4 then
+					sts_low <= '1';
+				else
+					sts_low <= '0';
+				end if;	
+			else
+				if (wr_pointer + mem_size - rd_pointer) <= 4 then
+					sts_low <= '1';
+				else
+					sts_low <= '0';
+				end if;	
+			end if;
+			 
+			-----------------------------
 				
 		end if;
 		
 	end process control_process;		
 		
 
- end fifo;
+ end fifo_sync;
